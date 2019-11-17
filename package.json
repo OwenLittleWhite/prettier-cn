@@ -1,0 +1,28 @@
+{
+  "name": "prettier-cn",
+  "version": "1.0.0",
+  "description": "pretttier中文网",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OwenLittleWhite/prettier-cn.git"
+  },
+  "keywords": [
+    "prettier",
+    "中文"
+  ],
+  "author": "Owen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OwenLittleWhite/prettier-cn/issues"
+  },
+  "homepage": "https://github.com/OwenLittleWhite/prettier-cn#readme",
+  "dependencies": {
+    "prettier": "^1.19.1"
+  }
+}
