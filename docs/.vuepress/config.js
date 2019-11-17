@@ -8,6 +8,11 @@ module.exports = {
       { text: "Github", link: "https://google.com" }
     ],
     sidebar: 'auto',
-    lastUpdated: 'Last Updated'
+    lastUpdated: 'Last Updated',
+    repo: 'OwenLittleWhite/prettier-cn',
+    docsDir: 'docs',
+    editLinks: true,
+    // 默认为 "Edit this page"
+    editLinkText: '在 GitHub 上编辑此页'
   }
 };
