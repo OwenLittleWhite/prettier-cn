@@ -5,10 +5,9 @@ module.exports = {
     nav: [
       { text: '主页', link: '/' },
       { text: '起步', link: '/guide/' },
-      { text: 'Github', link: 'https://google.com' },
     ],
     sidebar: 'auto',
-    lastUpdated: 'Last Updated',
+    lastUpdated: '最近更新',
     repo: 'OwenLittleWhite/prettier-cn',
     docsDir: 'docs',
     editLinks: true,
