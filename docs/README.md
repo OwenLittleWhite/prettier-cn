@@ -24,7 +24,7 @@ actionLink: /what-prettier
 
 ### 入门
 
-``` bash
+```bash
 # 在项目中添加 prettier：
 yarn add prettier --dev --exact
 # 或者 npm install prettier --save-dev --save-exact
