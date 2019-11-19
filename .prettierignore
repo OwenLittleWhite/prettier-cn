@@ -1,0 +1,9 @@
+# dependencies
+node_modules
+
+dist
+build
+
+logs/
+run/
+coverage/

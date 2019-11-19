@@ -4,9 +4,8 @@ heroImage: /home.png
 actionText: 起步 →
 actionLink: /guide/
 features:
-  - title: "# 什么是Prettier?"
-    details:
-      asdf
+  - title: '# 什么是Prettier?'
+    details: asdf
       sdfa
       adsf
 

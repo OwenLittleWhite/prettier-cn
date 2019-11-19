@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "format": "prettier --write \"**/**/*.{js,json,md}\""
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,11 @@
     "url": "https://github.com/OwenLittleWhite/prettier-cn/issues"
   },
   "homepage": "https://github.com/OwenLittleWhite/prettier-cn#readme",
-  "dependencies": {
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
     "prettier": "^1.19.1"
-  }
+  },
+  "pre-commit": [
+    "format"
+  ]
 }
