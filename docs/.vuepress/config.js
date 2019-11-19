@@ -4,9 +4,17 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
-      { text: '起步', link: '/guide/' },
+      { text: '起步', link: '/what-prettier' },
+      { text: '博客', link: 'https://owenlittlewhite.top' },
     ],
-    sidebar: 'auto',
+    sidebar: [
+      {
+        title: '关于', // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        sidebarDepth: 1, // 可选的, 默认值是 1
+        children: ['/what-prettier'],
+      },
+    ],
     lastUpdated: '最近更新',
     repo: 'OwenLittleWhite/prettier-cn',
     docsDir: 'docs',
