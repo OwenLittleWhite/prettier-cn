@@ -29,5 +29,8 @@
   },
   "pre-commit": [
     "format"
-  ]
+  ],
+  "dependencies": {
+    "vuepress": "^1.2.0"
+  }
 }

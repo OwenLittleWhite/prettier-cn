@@ -1,0 +1,1 @@
+# Prettier vs. Linters
