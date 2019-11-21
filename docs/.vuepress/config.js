@@ -12,7 +12,12 @@ module.exports = {
         title: '关于', // 必要的
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1, // 可选的, 默认值是 1
-        children: ['/what-prettier', '/why-prettier', '/comparison'],
+        children: [
+          '/what-prettier',
+          '/why-prettier',
+          '/comparison',
+          '/option-philosophy',
+        ],
       },
     ],
     lastUpdated: '最近更新',
