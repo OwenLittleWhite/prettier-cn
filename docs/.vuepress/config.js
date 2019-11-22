@@ -17,6 +17,7 @@ module.exports = {
           '/why-prettier',
           '/comparison',
           '/option-philosophy',
+          '/rationale'
         ],
       },
     ],
