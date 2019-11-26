@@ -4,6 +4,18 @@
 
 [prettier-cn](https://prettier-cn.top)
 
+## 全局依赖 vuepress
+
+```
+yarn global add  vuepress
+```
+
+## 开发依赖
+
+```
+yarn install
+```
+
 ## 开发运行
 
 ```
