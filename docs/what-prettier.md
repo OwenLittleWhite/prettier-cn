@@ -15,7 +15,7 @@ Prettier 是一个推荐的代码格式化工具，它支持：
 - [Markdown](https://commonmark.org/), including [GFM](https://github.github.com/gfm/) and [MDX](https://mdxjs.com/)
 - [YAML](https://yaml.org/)
 
-它移除了所有原始样式，并确保所有输出的代码都符合一致的样式。 （请参阅此[博客文章](https://jlongster.com/A-Prettier-Formatter)）
+它移除了所有原始样式，并确保所有输出的代码都符合一致的样式。（请参阅此[博客文章](https://jlongster.com/A-Prettier-Formatter)）
 
 Prettier 会考虑您的代码，并通过考虑行长从头开始重新输出代码。
 
@@ -25,13 +25,13 @@ Prettier 会考虑您的代码，并通过考虑行长从头开始重新输出�
 foo(arg1, arg2, arg3, arg4);
 ```
 
-这段代码一行正合适，因此格式化后代码将保持原样。 但是，我们经常遇到这种情况：
+这段代码一行正合适，因此格式化后代码将保持原样。但是，我们经常遇到这种情况：
 
 ```JS
 foo(reallyLongArg(), omgSoManyParameters(), IShouldRefactorThis(), isThereSeriouslyAnotherOne());
 ```
 
-这段代码太长了，我们之前调用方法的格式就不适用了。 Prettier 会做详尽的工作重新输出这段代码，像下面的代码一样：
+这段代码太长了，我们之前调用方法的格式就不适用了。Prettier 会做详尽的工作重新输出这段代码，像下面的代码一样：
 
 ```JS
 foo(

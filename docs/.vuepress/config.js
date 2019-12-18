@@ -20,6 +20,12 @@ module.exports = {
           '/rationale',
         ],
       },
+      {
+        title: '使用', // 必要的
+        collapsable: false, // 可选的, 默认值是 true,
+        sidebarDepth: 1, // 可选的, 默认值是 1
+        children: ['/install'],
+      },
     ],
     lastUpdated: '最近更新',
     repo: 'OwenLittleWhite/prettier-cn',
